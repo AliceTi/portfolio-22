@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta descrption="Alice TIFFAY, étudiante en graphisme à LISAA Rennes en alternance à EFFICIO Orléans. Étant touche à tout, l'objectif de ce portfolio est de montrer mon portefeuille de compétences que j'ai rempli au fur et à mesure de mes formations et expériences personnelles. Contact : alice.tiffay@gmail.com. Instagram : _iceti">
+    <title>Alice TIFFAY - AUDIOVISUEL</title>
+    <link rel="stylesheet" href="assets/css/style-audiovisuel.css">
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@200;300;400;500;600;700;800&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2e51348180.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav id="nav-header">
+            <ul id="logo">
+                <li><a href="index.html" title="Retour à la page d'accueil">Alice TIFFAY</a></li>
+            </ul>
+            <div id="menu-bars" onclick="myfunction()"><i class="fa-solid fa-bars"></i></div>
+            <div id="cross" onclick="maFonction()"><i class="fa-solid fa-xmark"></i></div>
+            <div id="nav-burger">
+                <ul>
+                    <li><a href="web.html" title="Wireframe, Maquette, Prototype XD, HTML5, CSS3, Javascript...">WEB</a></li>
+                    <li><a href="audiovisuel.html" title="Storyboard, Captations vidéos et son, Montage Premiere Pro, Animation After Effects...">AUDIOVISUEL</a></li>
+                    <li><a href="graphisme.html" title="Affiches, Flyer, Typo, Réseaux sociaux, Illustrator, Indesign...">GRAPHISME</a></li>
+                    <li><a href="illustration.html" title="Croquis, Portrait, Graphite, Fusain, Acrylique, Vectoriel, Procreate...">ILLUSTRATION</a></li>
+                </ul>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/alice-tiffay/" title="Comme une pro !" target="new">LINKEDIN</a></li>
+                    <li><a href="https://www.instagram.com/_iceti/?hl=fr" title="Suivez mon actualité dessin !" target="new">INSTAGRAM</a></li>
+                    <li><a href="https://www.youtube.com/channel/UCrD6ekUWa8jWO_NbBJ8nTeg" title="Pouce bleu !" target="new">YOUTUBE</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="intro">
+            <h1>AUDIOVISUEL</h1>
+            <h2>Du statique au dynamique</h2>
+            <p>Passionnée de cinéma et particulièrement de comédies dramatiques et de cinéma d'animation, j'ai pu découvrir l'envers du décor et comprendre les différents métiers qui apparaissent dans les génériques.</p>
+        </section>
+        <section>
+            <div class="wrapper">
+                <div class="project" id="one" onclick="openCardOne()">Un</div>
+                <div class="project" id="two" onclick="openCardTwo()">Deux</div>
+                <div class="project" id="three" onclick="openCardThree()">Trois</div>
+                <div class="project" id="four" onclick="openCardFour()">Quatre</div>
+                <div class="project" id="five"onclick="openCardFive()">Cinq</div>
+                <div class="project" id="six" onclick="openCardSix()">Six</div>
+                <div class="project" id="seven" onclick="openCardSeven()">Sept</div>
+                <div class="project" id="eight" onclick="openCardEight()">Huit</div>
+                <div class="project" id="nine" onclick="openCardNine()">Neuf</div>
+            </div>
+        </section>
+
+        <div class="card" id="cardOne">
+            <div id="scrollableContent">
+                <figure><img src="assets/img/dwight.jpg" alt="Dwight Schrute" title="Dwight Schrute"><figcaption>Pouet</figcaption></figure>
+                <figure><img src="assets/img/dwight.jpg" alt="Dwight Schrute" title="Dwight Schrute"><figcaption>Pouet</figcaption></figure>
+                <figure><img src="assets/img/dwight.jpg" alt="Dwight Schrute" title="Dwight Schrute"><figcaption>Pouet</figcaption></figure>
+                <figure><img src="assets/img/dwight.jpg" alt="Dwight Schrute" title="Dwight Schrute"><figcaption>Pouet</figcaption></figure>
+            </div>
+            <div>
+                <h3>Titre du projet</h3>
+                <p>Description du projet</p>
+                <button type="button" onclick="closeCardOne()">Fermer</button>
+            </div>
+        </div>
+        <div class="card" id="cardTwo">
+            <div id="scrollableContent">
+                <figure><img src="assets/img/dwight.jpg" alt="Dwight Schrute" title="Dwight Schrute"><figcaption>Pouet</figcaption></figure>
+                <figure><img src="assets/img/dwight.jpg" alt="Dwight Schrute" title="Dwight Schrute"><figcaption>Pouet</figcaption></figure>
+                <figure><img src="assets/img/dwight.jpg" alt="Dwight Schrute" title="Dwight Schrute"><figcaption>Pouet</figcaption></figure>
+                <figure><img src="assets/img/dwight.jpg" alt="Dwight Schrute" title="Dwight Schrute"><figcaption>Pouet</figcaption></figure>
+            </div>
+            <div>
+                <h3>Titre du projet</h3>
+                <p>Description du projet</p>
+                <button type="button" onclick="closeCardTwo()">Fermer</button>
+            </div>
+        </div>
+        <div class="card" id="cardThree">
+            <div id="scrollableContent">
+                <figure><img src="assets/img/dwight.jpg" alt="Dwight Schrute" title="Dwight Schrute"><figcaption>Pouet</figcaption></figure>
+                <figure><img src="assets/img/dwight.jpg" alt="Dwight Schrute" title="Dwight Schrute"><figcaption>Pouet</figcaption></figure>
+                <figure><img src="assets/img/dwight.jpg" alt="Dwight Schrute" title="Dwight Schrute"><figcaption>Pouet</figcaption></figure>
+                <figure><img src="assets/img/dwight.jpg" alt="Dwight Schrute" title="Dwight Schrute"><figcaption>Pouet</figcaption></figure>
+            </div>
+            <div>
+                <h3>Titre du projet</h3>
+                <p>Description du projet</p>
+                <button type="button" onclick="closeCardThree()">Fermer</button>
+            </div>
+        </div>
+        <div class="card" id="cardFour">
+            <div id="scrollableContent">
+                <img src="assets/img/dwight.jpg">
+                <img src="assets/img/dwight.jpg">
+                <img src="assets/img/dwight.jpg">
+                <img src="assets/img/dwight.jpg">
+            </div>
+            <div>
+                <h3>Titre du projet</h3>
+                <p>Description du projet</p>
+                <button type="button" onclick="closeCardFour()">Fermer</button>
+            </div>
+        </div>
+        <div class="card" id="cardFive">
+            <div id="scrollableContent">
+                <figure><img src="assets/img/dwight.jpg" alt="Dwight Schrute" title="Dwight Schrute"><figcaption>Pouet</figcaption></figure>
+                <figure><img src="assets/img/dwight.jpg" alt="Dwight Schrute" title="Dwight Schrute"><figcaption>Pouet</figcaption></figure>
+                <figure><img src="assets/img/dwight.jpg" alt="Dwight Schrute" title="Dwight Schrute"><figcaption>Pouet</figcaption></figure>
+                <figure><img src="assets/img/dwight.jpg" alt="Dwight Schrute" title="Dwight Schrute"><figcaption>Pouet</figcaption></figure>
+            </div>
+            <div>
+                <h3>Titre du projet</h3>
+                <p>Description du projet</p>
+                <button type="button" onclick="closeCardFive()">Fermer</button>
+            </div>
+        </div>
+        <div class="card" id="cardSix">
+            <div id="scrollableContent">
+                <figure><img src="assets/img/dwight.jpg" alt="Dwight Schrute" title="Dwight Schrute"><figcaption>Pouet</figcaption></figure>
+                <figure><img src="assets/img/dwight.jpg" alt="Dwight Schrute" title="Dwight Schrute"><figcaption>Pouet</figcaption></figure>
+                <figure><img src="assets/img/dwight.jpg" alt="Dwight Schrute" title="Dwight Schrute"><figcaption>Pouet</figcaption></figure>
+                <figure><img src="assets/img/dwight.jpg" alt="Dwight Schrute" title="Dwight Schrute"><figcaption>Pouet</figcaption></figure>
+            </div>
+            <div>
+                <h3>Titre du projet</h3>
+                <p>Description du projet</p>
+                <button type="button" onclick="closeCardSix()">Fermer</button>
+            </div>
+        </div>
+        <div class="card" id="cardSeven">
+            <div id="scrollableContent">
+                <figure><img src="assets/img/dwight.jpg" alt="Dwight Schrute" title="Dwight Schrute"><figcaption>Pouet</figcaption></figure>
+                <figure><img src="assets/img/dwight.jpg" alt="Dwight Schrute" title="Dwight Schrute"><figcaption>Pouet</figcaption></figure>
+                <figure><img src="assets/img/dwight.jpg" alt="Dwight Schrute" title="Dwight Schrute"><figcaption>Pouet</figcaption></figure>
+                <figure><img src="assets/img/dwight.jpg" alt="Dwight Schrute" title="Dwight Schrute"><figcaption>Pouet</figcaption></figure>
+            </div>
+            <div>
+                <h3>Titre du projet</h3>
+                <p>Description du projet</p>
+                <button type="button" onclick="closeCardSeven()">Fermer</button>
+            </div>
+        </div>
+        <div class="card" id="cardEight">
+            <div id="scrollableContent">
+                <figure><img src="assets/img/dwight.jpg" alt="Dwight Schrute" title="Dwight Schrute"><figcaption>Pouet</figcaption></figure>
+                <figure><img src="assets/img/dwight.jpg" alt="Dwight Schrute" title="Dwight Schrute"><figcaption>Pouet</figcaption></figure>
+                <figure><img src="assets/img/dwight.jpg" alt="Dwight Schrute" title="Dwight Schrute"><figcaption>Pouet</figcaption></figure>
+                <figure><img src="assets/img/dwight.jpg" alt="Dwight Schrute" title="Dwight Schrute"><figcaption>Pouet</figcaption></figure>
+            </div>
+            <div>
+                <h3>Titre du projet</h3>
+                <p>Description du projet</p>
+                <button type="button" onclick="closeCardEight()">Fermer</button>
+            </div>
+        </div>
+        <div class="card" id="cardNine">
+            <div id="scrollableContent">
+                <figure><img src="assets/img/dwight.jpg" alt="Dwight Schrute" title="Dwight Schrute"><figcaption>Pouet</figcaption></figure>
+                <figure><img src="assets/img/dwight.jpg" alt="Dwight Schrute" title="Dwight Schrute"><figcaption>Pouet</figcaption></figure>
+                <figure><img src="assets/img/dwight.jpg" alt="Dwight Schrute" title="Dwight Schrute"><figcaption>Pouet</figcaption></figure>
+                <figure><img src="assets/img/dwight.jpg" alt="Dwight Schrute" title="Dwight Schrute"><figcaption>Pouet</figcaption></figure>
+            </div>
+            <div>
+                <h3>Titre du projet</h3>
+                <p>Description du projet</p>
+                <button type="button" onclick="closeCardNine()">Fermer</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <nav id="nav-footer">
+            <ul>
+                <li><a href="index.html" title="Retour à la page d'accueil">LOGO</a></li>
+            </ul>
+            <ul>
+                <li><a href="web.html" title="Wireframe, Maquette, Prototype XD, HTML5, CSS3, Javascript...">WEB</a></li>
+                <li><a href="audiovisuel.html" title="Storyboard, Captations vidéos et son, Montage Premiere Pro, Animation After Effects...">AUDIOVISUEL</a></li>
+                <li><a href="graphisme.html" title="Affiches, Flyer, Typo, Réseaux sociaux, Illustrator, Indesign...">GRAPHISME</a></li>
+                <li><a href="illustration.html" title="Croquis, Portrait, Graphite, Fusain, Acrylique, Vectoriel, Procreate...">ILLUSTRATION</a></li>
+                <li><a href="cv.html" title="Qui suis-je ? D'où viens-je ? Que fais-je ?">CV</a></li>
+            </ul>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/alice-tiffay/" title="Comme une pro !" target="new">LINKEDIN</a></li>
+                <li><a href="https://www.instagram.com/_iceti/?hl=fr" title="Suivez mon actualité dessin !" target="new">INSTAGRAM</a></li>
+                <li><a href="https://www.youtube.com/channel/UCrD6ekUWa8jWO_NbBJ8nTeg" title="Pouce bleu !" target="new">YOUTUBE</a></li>
+            </ul>
+            <ul>
+                <li>2022 - Alice TIFFAY</li>
+            </ul>
+        </nav>
+    </footer>
+    <script>
+
+        let burger = document.getElementById('menu-bars')
+        let menu = document.getElementById('nav-burger')
+        let pasMenu = document.getElementById('cross')
+        let header = document.querySelector('header')
+        let cardOne = document.getElementById('cardOne')
+        let cardTwo = document.getElementById('cardTwo')
+        let cardThree = document.getElementById('cardThree')
+        let cardFour = document.getElementById('cardFour')
+        let cardFive = document.getElementById('cardFive')
+        let cardSix = document.getElementById('cardSix')
+        let cardSeven = document.getElementById('cardSeven')
+        let cardEight = document.getElementById('cardEight')
+        let cardNine = document.getElementById('cardNine')
+        let imgOne = document.getElementById('one')
+        function myfunction(){
+            menu.style.display='block';
+            pasMenu.style.display='block';
+            burger.style.display='none';
+            header.style.paddingBottom='20px';
+        }
+        function maFonction(){
+            menu.style.display='none';
+            pasMenu.style.display='none';
+            burger.style.display='block';
+            header.style.paddingBottom='0';
+        }
+
+        function openCardOne(){
+            cardOne.style.visibility='visible';
+        }
+        function closeCardOne(){
+            cardOne.style.visibility='hidden';
+        }
+
+        function openCardTwo(){
+            cardTwo.style.visibility='visible';
+        }
+        function closeCardTwo(){
+            cardTwo.style.visibility='hidden';
+        }
+
+        function openCardThree(){
+            cardThree.style.visibility='visible';
+        }
+        function closeCardThree(){
+            cardThree.style.visibility='hidden';
+        }
+
+        function openCardFour(){
+            cardFour.style.visibility='visible';
+        }
+        function closeCardFour(){
+            cardFour.style.visibility='hidden';
+        }
+
+        function openCardFive(){
+            cardFive.style.visibility='visible';
+        }
+        function closeCardFive(){
+            cardFive.style.visibility='hidden';
+        }
+
+        function openCardSix(){
+            cardSix.style.visibility='visible';
+        }
+        function closeCardSix(){
+            cardSix.style.visibility='hidden';
+        }
+
+        function openCardSeven(){
+            cardSeven.style.visibility='visible';
+        }
+        function closeCardSeven(){
+            cardSeven.style.visibility='hidden';
+        }
+
+        function openCardEight(){
+            cardEight.style.visibility='visible';
+        }
+        function closeCardEight(){
+            cardEight.style.visibility='hidden';
+        }
+
+        function openCardNine(){
+            cardNine.style.visibility='visible';
+        }
+        function closeCardNine(){
+            cardNine.style.visibility='hidden';
+        }
+
+
+
+</script>
+</body>
+</html>
