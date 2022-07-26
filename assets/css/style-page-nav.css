@@ -160,55 +160,55 @@ button:hover{
     background-position: center;
 }
 #one{
-    background-image: url('../img/dwight-1.jpg');
+    background-image: url('../img/dwight-1.webp');
     grid-column: 1;
     grid-row: 1;
     opacity: 1;
 }
 #two{
-    background-image: url('../img/dwight-2.jpg');
+    background-image: url('../img/dwight-2.webp');
     grid-column: 2;
     grid-row: 1 / 3;
     opacity: 1;
 }
 #three{
-    background-image: url('../img/dwight-3.jpg');
+    background-image: url('../img/dwight-3.webp');
     grid-column: 3;
     grid-row: 1 / 5;
     opacity: 1;
 }
 #four{
-    background-image: url('../img/dwight-4.jpg');
+    background-image: url('../img/dwight-4.webp');
     grid-column: 1;
     grid-row: 2;
     opacity: 1;
 }
 #five {
-    background-image: url('../img/dwight-5.jpg');
+    background-image: url('../img/dwight-5.webp');
     grid-column: 2;
     grid-row: 2;
     opacity: 1;
 }
 #six {
-    background-image: url('../img/dwight-6.jpg');
+    background-image: url('../img/dwight-6.webp');
     grid-column: 3;
     grid-row: 2;
     opacity: 1;
 }
 #seven {
-    background-image: url('../img/dwight-7.jpg');
+    background-image: url('../img/dwight-7.webp');
     grid-column: 1;
     grid-row: 3;
     opacity: 1;
 }
 #eight {
-    background-image: url('../img/dwight-8.jpg');
+    background-image: url('../img/dwight-8.webp');
     grid-column: 2;
     grid-row: 3;
     opacity: 1;
 }
 #nine {
-    background-image: url('../img/dwight-9.jpg');
+    background-image: url('../img/dwight-9.webp');
     grid-column: 3;
     grid-row: 3;
     opacity: 1;
