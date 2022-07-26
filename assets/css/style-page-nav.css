@@ -246,12 +246,12 @@ button:hover{
 figure{
     margin-bottom: 40px;
     padding: 0;
-    height: 80%;
 }
 figcaption{
     font-family: 'Fira Sans', sans-serif;
     font-style: italic;
     font-size: 12px;
+    margin-top: 10px;
 }
 img{
     opacity: 1;
@@ -259,6 +259,10 @@ img{
 video{
     width : auto;
     height: 100%;
+}
+figure img{
+    width: 100%;
+    height: auto;
 }
 
 #scrollableContent{
@@ -397,10 +401,16 @@ video{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 75vw;
-        height: auto;
     }
     #figure:first-child{
         margin-left: -20px;
+    }
+    video{
+        width : 75vw;
+        height: auto;
+    }
+    figure img{
+        width: 75vw;
+        height: auto;
     }
 }
