@@ -1,9 +1,25 @@
 body{
-    margin: 0;    padding: 0;    font-family: 'Fira Sans', sans-serif; background-color: #e2dbd3; color: rgb(56, 56, 56);}
-ul{list-style: none;}
-a{text-decoration: none;    color: rgb(56, 56, 56);}
-a:hover{color: rgb(56, 56, 56);    font-weight: bold;}
-a:active{color: rgb(56, 56, 56);    font-weight: 100;}
+    margin: 0;    
+    padding: 0;    
+    font-family: 'Fira Sans', sans-serif; 
+    background-color: #e2dbd3; 
+    color: rgb(56, 56, 56);
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;    
+    color: rgb(56, 56, 56);
+}
+a:hover{
+    color: rgb(56, 56, 56);    
+    font-weight: bold;
+}
+a:active{
+    color: rgb(56, 56, 56);    
+    font-weight: 100;
+}
 
 
 #nav-header, #nav-footer, #nav-burger{
@@ -179,19 +195,16 @@ body::-webkit-scrollbar {
     font-weight: 700; 
 }
 @media (max-width: 400px) {
-    #nav-header ul, #nav-footer ul{
-        display: flex;
-        flex-direction: column;
+    header{
+        padding-bottom: 0;
     }
-    #nav-footer{
-        display: flex;
-        flex-direction: column;
+    footer{
+        height: fit-content;
     }
-    #nav-header li, #nav-footer li{
-        padding-top: 40px;
-    }
-    #nav-footer{
-        margin-left: -250px;
+
+    #logo{
+        margin-top: -28px;
+        margin-left: -28px;
     }
     #menu-bars{
         display: block;
@@ -203,26 +216,28 @@ body::-webkit-scrollbar {
         position: absolute;
         top: 10px;
         right: 20px;
-    }
-    #nav-burger{
-        display: flex;
-        flex-direction: column;
-        margin-right: 50px;
-    }
-    #nav-burger , #cross{
         display: none;
     }
-    #logo{
-        margin-top: -28px;
-        margin-left: -28px;
+    #nav-burger{
+        flex-direction: column;
+        margin-right: 50px;
+        display: none;
     }
-    header{
-        padding-bottom: 0;
+
+    #nav-header ul, #nav-footer ul{
+        display: flex;
+        flex-direction: column;
     }
-    h2{
-        font-family: 'Changa', sans-serif;
-        font-weight: 700; 
-        font-size: 36px;
+    #nav-header li, #nav-footer li{
+        padding-top: 40px;
+    }
+    #nav-footer{
+        display: flex;
+        flex-direction: column;
+        margin-left: -100px;
+    }
+    p{
+        width: 90%;
     }
     #intro, #web, #audiovisuel, #illustration, #graphisme{
         padding-left: 10px;
@@ -232,9 +247,6 @@ body::-webkit-scrollbar {
         justify-content: center;
         padding-top: 40px;
         padding-bottom: 80px;
-    }
-    p{
-        width: 90%;
     }
     #intro, #web, #audiovisuel, #illustration, #graphisme{
         padding-right: 2vw;
@@ -252,8 +264,5 @@ body::-webkit-scrollbar {
     }
     #audiovisuel article, #illustration article{
         width: 100%;
-    }
-    footer{
-        height: fit-content;
     }
 }
