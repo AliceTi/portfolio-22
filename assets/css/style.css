@@ -59,6 +59,7 @@ header{
     box-shadow: 0px 5px 5px rgba(134, 134, 134, 0.116);
     background-color: #e2dbd3; 
     color: rgb(56, 56, 56);
+    z-index: 1;
 }
 footer{
     width: 100%;
@@ -89,6 +90,29 @@ body{
     padding-left: 20vw;
     padding-right: 20vw;
 }
+
+#contact{
+    height: 75vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#contact a{
+    color: white;
+}
+#contact ul{
+    margin-top: -80px;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+#contact h3{
+    font-size: 72px;
+}
+
 #web button{
     border: solid 2px;
     height: 40px;
@@ -194,6 +218,12 @@ body::-webkit-scrollbar {
     font-family: 'Changa', sans-serif;
     font-weight: 700; 
 }
+
+
+
+
+
+
 @media (max-width: 400px) {
     header{
         padding-bottom: 0;
@@ -236,6 +266,12 @@ body::-webkit-scrollbar {
         flex-direction: column;
         margin-left: -100px;
     }
+    h2{
+        font-family: 'Changa', sans-serif;
+        font-weight: 700; 
+        font-size: 48px;
+        line-height: 48px;
+    }
     p{
         width: 90%;
     }
@@ -264,5 +300,24 @@ body::-webkit-scrollbar {
     }
     #audiovisuel article, #illustration article{
         width: 100%;
+    }
+
+
+    #contact ul{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #contact li{
+        padding: 10px 0 10px 0;
+    }
+    #contact h3{
+        font-size: 28px;
+    }
+    span{
+        display: none;
     }
 }
